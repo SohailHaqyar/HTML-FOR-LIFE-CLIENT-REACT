@@ -33,26 +33,6 @@ function App() {
       {students?.map((student) => (
         <Student key={student.id} {...student} />
       ))}
-
-      {students?.map((student) => (
-        <Student key={student.id} {...student} />
-      ))}
-
-      {students?.map((student) => (
-        <Student key={student.id} {...student} />
-      ))}
-      {students?.map((student) => (
-        <Student key={student.id} {...student} />
-      ))}
-      {students?.map((student) => (
-        <Student key={student.id} {...student} />
-      ))}
-      {students?.map((student) => (
-        <Student key={student.id} {...student} />
-      ))}
-      {students?.map((student) => (
-        <Student key={student.id} {...student} />
-      ))}
     </div>
   );
 }
